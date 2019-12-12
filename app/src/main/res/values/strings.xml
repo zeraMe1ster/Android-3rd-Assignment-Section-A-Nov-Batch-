@@ -2,6 +2,6 @@
     <string name="app_name">eSoftAssign</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Add Student</string>
+    <string name="title_notifications">About</string>
 </resources>
