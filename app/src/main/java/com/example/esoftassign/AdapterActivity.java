@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -54,11 +53,11 @@ public class AdapterActivity extends RecyclerView.Adapter<AdapterActivity.MyHold
 
         }
         else if(gen=="Female"){
-            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.woman));
+            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.women));
 
         }
         else{
-            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.woman));
+            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.women));
 
 
         }

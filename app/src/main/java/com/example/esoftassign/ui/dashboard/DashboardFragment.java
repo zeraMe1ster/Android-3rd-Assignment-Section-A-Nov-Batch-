@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
@@ -70,15 +69,6 @@ public class DashboardFragment extends Fragment implements RadioGroup.OnCheckedC
             {
                 DashboardActivity.st.add(new Student(fullname,gender,age,address));
                 Toast.makeText(getContext(),"Student added", Toast.LENGTH_SHORT).show();
-
-//                HomeFragment homeFragment = new HomeFragment();
-//
-//                Bundle bundle = new Bundle();
-////                bundle.putSerializable("studentlist", M);
-//
-//                homeFragment.setArguments(bundle);
-//                getFragmentManager().beginTransaction().add(R.id.nav_host_fragment,homeFragment).commit();
-
 
 
             }
